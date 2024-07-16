@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './covid.css';
-
 function Covid() {
     const [data, setData] = useState({
         recovered: '',
